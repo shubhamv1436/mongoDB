@@ -1,5 +1,5 @@
 import bottle
-
+ 
 @bottle.route('/')
 def home_page():
 	mythings = ['apple','banana','peach']
