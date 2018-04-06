@@ -12,6 +12,12 @@
 <li>{{item}}</li>
 %end
 </ul>
+
+<form action="/favourite_fruit" method="POST">
+What is your favourite fruit?
+<input type="text" name="fruit" size="40" value=""><br>
+<input type="submit" name="Submit">
+</form>
 </body>
 </html>
 
